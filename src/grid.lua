@@ -30,7 +30,7 @@ end
 -- Converts pixel coordinates to the grid cell they fall inside
 function Grid:pixelToGrid(px, py)
 	local gx = math.floor(px / self.tileWidth) + 1
-	local gy = math / floor(py / self.tileHeight) + 1
+	local gy = math.floor(py / self.tileHeight) + 1
 	return gx, gy
 end
 
